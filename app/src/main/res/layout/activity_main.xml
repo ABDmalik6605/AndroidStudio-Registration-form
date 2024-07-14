@@ -36,10 +36,11 @@
         android:layout_height="wrap_content"
         android:paddingTop="15dp"
         android:singleLine="true"
-        android:background="@color/grey"
+        android:background="@color/lightGrey"
+        android:textSize="22sp"
         android:hint="@string/enterName"
         android:textColor="@color/black"
-        android:textColorHint="@color/black" />
+        android:textColorHint="@color/darkgrey" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -54,10 +55,11 @@
         android:layout_height="wrap_content"
         android:paddingTop="15dp"
         android:singleLine="true"
-        android:background="@color/grey"
+        android:textSize="22sp"
+        android:background="@color/lightGrey"
         android:hint="@string/enterEmail"
         android:textColor="@color/black"
-        android:textColorHint="@color/black" />
+        android:textColorHint="@color/darkgrey" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -73,10 +75,11 @@
         android:layout_height="wrap_content"
         android:paddingTop="15dp"
         android:singleLine="true"
-        android:background="@color/grey"
+        android:textSize="22sp"
+        android:background="@color/lightGrey"
         android:hint="@string/enterPassword"
         android:textColor="@color/black"
-        android:textColorHint="@color/black" />
+        android:textColorHint="@color/darkgrey" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -91,10 +94,11 @@
         android:layout_height="wrap_content"
         android:paddingTop="15dp"
         android:singleLine="true"
-        android:background="@color/grey"
+        android:textSize="22sp"
+        android:background="@color/lightGrey"
         android:hint="@string/enterConfirm"
         android:textColor="@color/black"
-        android:textColorHint="@color/black" />
+        android:textColorHint="@color/darkgrey" />
     <Button
         android:id="@+id/pressSubmitButton"
         android:layout_width="wrap_content"
