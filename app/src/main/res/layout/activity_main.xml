@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:gravity="center_horizontal"
+        android:paddingTop="15dp"
+        android:text="Registration form" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="25dp"
+        android:textSize="28sp"
+        android:text="Name" />
+    <EditText
+        android:id="@+id/sayYourName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:singleLine="true"
+        android:hint="Please enter your name" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="25dp"
+        android:textSize="28sp"
+        android:text="Email" />
+    <EditText
+        android:id="@+id/sayYourEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:singleLine="true"
+        android:hint="Please enter your email"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:paddingTop="25dp"
+        android:text="Password" />
+    <EditText
+        android:id="@+id/sayYourPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:singleLine="true"
+        android:hint="Please enter your password" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="25dp"
+        android:textSize="28sp"
+        android:text="Confirm Password" />
+    <EditText
+        android:id="@+id/sayYourConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:singleLine="true"
+        android:hint="Please confirm your password" />
+    <Button
+        android:id="@+id/pressSubmitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Submit" />
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:paddingTop="15dp"
+        android:text="" />
+</LinearLayout>
