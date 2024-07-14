@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="Reg">Registration form</string>
+    <string name="name">Name</string>
+    <string name="enterName">Please enter your name</string>
+    <string name="email">Email</string>
+    <string name="enterEmail">Please enter your Email</string>
+    <string name="password">Password</string>
+    <string name="enterPassword">Please enter your Password</string>
+    <string name="confirm">Confirm Password</string>
+    <string name="enterConfirm">Please confirm your Password</string>
+    <string name="submit">Submit</string>
+    <string name="mode">Toggle Dark Mode</string>
 </resources>

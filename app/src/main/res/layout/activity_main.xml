@@ -11,60 +11,90 @@
         android:layout_height="wrap_content"
         android:textSize="35sp"
         android:gravity="center_horizontal"
-        android:paddingTop="15dp"
-        android:text="Registration form" />
+        android:paddingTop="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:text="@string/Reg" />
+    <Button
+        android:id="@+id/toggleDarkModeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:backgroundTint="@color/darkgrey"
+        android:textColor="@color/black"
+        android:text="@string/mode"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="25dp"
         android:textSize="28sp"
-        android:text="Name" />
+        android:textStyle="bold"
+        android:textColor="@color/orange"
+        android:text="@string/name" />
     <EditText
         android:id="@+id/sayYourName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="15dp"
         android:singleLine="true"
-        android:hint="Please enter your name" />
+        android:background="@color/grey"
+        android:hint="@string/enterName"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="25dp"
         android:textSize="28sp"
-        android:text="Email" />
+        android:textStyle="bold"
+        android:textColor="@color/orange"
+        android:text="@string/email" />
     <EditText
         android:id="@+id/sayYourEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="15dp"
         android:singleLine="true"
-        android:hint="Please enter your email"/>
+        android:background="@color/grey"
+        android:hint="@string/enterEmail"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="28sp"
         android:paddingTop="25dp"
-        android:text="Password" />
+        android:textStyle="bold"
+        android:textColor="@color/orange"
+        android:text="@string/password"
+        android:textColorHint="@color/black" />
     <EditText
         android:id="@+id/sayYourPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="15dp"
         android:singleLine="true"
-        android:hint="Please enter your password" />
+        android:background="@color/grey"
+        android:hint="@string/enterPassword"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="25dp"
         android:textSize="28sp"
-        android:text="Confirm Password" />
+        android:textStyle="bold"
+        android:textColor="@color/orange"
+        android:text="@string/confirm" />
     <EditText
         android:id="@+id/sayYourConfirm"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="15dp"
         android:singleLine="true"
-        android:hint="Please confirm your password" />
+        android:background="@color/grey"
+        android:hint="@string/enterConfirm"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
     <Button
         android:id="@+id/pressSubmitButton"
         android:layout_width="wrap_content"
@@ -72,7 +102,10 @@
         android:textSize="30sp"
         android:layout_marginTop="35dp"
         android:layout_gravity="center_horizontal"
-        android:text="Submit" />
+        android:textStyle="bold"
+        android:backgroundTint="@color/cyan"
+        android:textColor="@color/maroon"
+        android:text="@string/submit" />
     <TextView
         android:id="@+id/resultText"
         android:layout_width="match_parent"
@@ -81,4 +114,5 @@
         android:gravity="center_horizontal"
         android:paddingTop="15dp"
         android:text="" />
+
 </LinearLayout>
